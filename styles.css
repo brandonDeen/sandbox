@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.main-container {
+    display: flex;
+}
+
+.component-list {
+    width: 25%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+}
+
+.component {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.workflow-area {
+    width: 75%;
+    min-height: 400px;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+}
+
+.workflow-area .workflow-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #d0e0d0;
+    border: 1px solid #aaa;
+}
